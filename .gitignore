@@ -1,0 +1,75 @@
+# Ignorar arquivos e pastas de sistema operacional
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.project
+.classpath
+
+# Geral - Logs e arquivos temporários
+*.log
+logs/
+temp/
+tmp/
+target/ # Para Java/Maven
+build/  # Para Java/Gradle e outros builds
+
+# Dependências do Node.js (NestJS)
+# Ignorar node_modules em qualquer nível, garantindo que não suba dependências
+node_modules/
+
+# Arquivos de Build e Compilação do Node.js/TypeScript
+dist/      # Pasta de saída da compilação TypeScript (NestJS)
+out/
+compiled/
+
+# Logs de pacotes npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Variáveis de ambiente (específicas para Node.js, mas boas de ter)
+.env
+.env.development
+.env.production
+.env.test
+
+# Dependências do Java (Maven/Gradle)
+# Pastas de build de Maven e Gradle
+target/
+build/
+.gradle/
+.idea/
+.project
+.classpath
+.settings/
+bin/
+
+# Arquivos de IDE Java
+*.ipr
+*.iws
+.factorypath
+.metadata/
+
+# Arquivos de cache e logs de Java
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+hs_err_pid*.log
+derby.log
+# logs de Tomcat ou servidores de aplicação
+catalina.out
+
+# Docker
+# Ignorar arquivos de contexto ou volumes montados do Docker que não devem ir para o repo
+# Se você tiver volumes persistentes que não são código, ignore-os
+.dockerignore # O .dockerignore em si não é ignorado, mas sim seus efeitos
+*.swp # Swap files do Vim
