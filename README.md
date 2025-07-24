@@ -130,7 +130,6 @@ O desenvolvimento deste projeto será iterativo, abordando os conceitos gradualm
 
 ## 🚀 Como Rodar o Projeto Localmente (em construção)
 
-(Nesta seção, você adicionará instruções passo a passo para:
 1.  Clonar o repositório.
 2.  Instalar Docker e Docker Compose.
 3.  Comandos para subir Kafka, PostgreSQLs e Redis via Docker Compose (provavelmente de um arquivo `docker-compose.yml` na raiz).
