@@ -1,9 +1,9 @@
 # Projeto Kiosk - Sistema de Autoatendimento Fast Food
 
 <p align="center">
-  <img src="./docs/architecture-diagram.png" alt="Diagrama de Arquitetura Kiosk">
+  <img src="./docs/kiosk_arch.png" alt="Diagrama de Arquitetura Kiosk">
   <br>
-  <em>(Substitua esta imagem pelo seu diagrama de arquitetura completo dentro da pasta `docs`!)</em>
+  <em>(Este é o diagrama de arquitetura do projeto Kiosk, mostrando a comunicação entre os microsserviços e seus componentes.)</em>
 </p>
 
 Este projeto tem como objetivo principal a construção do backend de um sistema de autoatendimento para restaurantes fast-food, similar aos totens de pedidos com tela touch. Desenvolvido com uma arquitetura de microsserviços e comunicação assíncrona baseada em eventos, o `Kiosk` serve como um estudo prático e um item de portfólio para explorar conceitos avançados de sistemas distribuídos.
