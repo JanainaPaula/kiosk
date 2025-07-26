@@ -1,5 +1,8 @@
 # Projeto Kiosk - Sistema de Autoatendimento Fast Food
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=flat-square)
+
 Este projeto tem como objetivo principal a construção do backend de um sistema de autoatendimento para restaurantes fast-food, similar aos totens de pedidos com tela touch. Desenvolvido com uma arquitetura de microsserviços e comunicação assíncrona baseada em eventos, o `Kiosk` serve como um estudo prático e um item de portfólio para explorar conceitos avançados de sistemas distribuídos.
 
 <p align="center">
