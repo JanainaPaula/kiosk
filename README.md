@@ -12,7 +12,7 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-222222?logo=github-actions&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
 
 Este projeto tem como objetivo principal a construção do backend de um sistema de autoatendimento para restaurantes fast-food, similar aos totens de pedidos com tela touch. Desenvolvido com uma arquitetura de microsserviços e comunicação assíncrona baseada em eventos, o `Kiosk` serve como um estudo prático e um item de portfólio para explorar conceitos avançados de sistemas distribuídos.
 
