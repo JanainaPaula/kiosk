@@ -50,7 +50,7 @@ O sistema `Kiosk` é composto por 4 microsserviços principais, cada um com sua 
 * **Tecnologias:** **NestJS** (TypeScript), PostgreSQL (para persistência de status de pedidos na cozinha, ou pode espelhar dados do order-ms).
 * **Comunicação:**
     * Consome eventos `order-created` e `order-processing` do serviço de pedidos.
-    * Publica eventos `order-ready` e `order-collected` no Kafka, atualizando o status do pedido para o cliente.
+    * Publica eventos `order-ready` e no Kafka, atualizando o status do pedido para o cliente.
 
 ## ⚙️ Componentes de Infraestrutura
 
@@ -85,7 +85,7 @@ O desenvolvimento deste projeto será iterativo, abordando os conceitos gradualm
 
 1.  **Fase 1: Core Functionality (Início)**
     * Implementação do `kiosk-menu-ms` (NestJS) com CRUD básico e publicação de `menu-updated` no Kafka.
-    * Configuração inicial do ambiente Kafka, PostgreSQL e **Redis** localmente (via Docker Compose).
+    * Configuração inicial do ambiente Kafka, PostgreSQL(via Docker Compose).
 
 2.  **Fase 2: Pedido e Pagamento**
     * Implementação do `kiosk-order-ms` (Spring Boot) para criação e gerenciamento de pedidos, consumindo `menu-updated` para popular o cache Redis, e publicando eventos.
@@ -127,10 +127,3 @@ O desenvolvimento deste projeto será iterativo, abordando os conceitos gradualm
     * Grafana (Dashboards)
 * **CI/CD:**
     * GitHub Actions
-
-## 🚀 Como Rodar o Projeto Localmente (em construção)
-
-1.  Clonar o repositório.
-2.  Instalar Docker e Docker Compose.
-3.  Comandos para subir Kafka, PostgreSQLs e Redis via Docker Compose (provavelmente de um arquivo `docker-compose.yml` na raiz).
-4.  Instruções para buildar (e.g., `mvn clean install` para Java, `npm install && npm run build` para NestJS) e rodar cada microsserviço localmente, ou via Docker Compose se preferir centralizar o ambiente de dev.)
