@@ -1,11 +1,11 @@
-# Kiosk Menu microservice
+# Kiosk Menu Microservice
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![NestJS](https://img.shields.io/badge/NestJS-red?logo=nestjs&logoColor=white)](https://nestjs.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![MinIO](https://img.shields.io/badge/MinIO-EF3C3A?logo=minio&logoColor=white)](https://min.io/)
 [![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=flat-square)
 
 Microsserviço responsável pela gestão dos itens de cardápio no sistema de autoatendimento de restaurantes **Kiosk**.
