@@ -37,7 +37,7 @@ Este projeto tem como objetivo principal a construção do backend de um sistema
 
 O sistema `Kiosk` é composto por 4 microsserviços principais, cada um com sua responsabilidade e stack tecnológica:
 
-### 1. `kiosk-menu-ms` (Serviço de Cardápio)
+### 1. [`kiosk-menu-ms`](/kiosk-menu-ms) (Serviço de Cardápio)
 * **Responsabilidade:** Gerenciar o cardápio do restaurante (itens, categorias, preços, imagens).
 * **Tecnologias:** **NestJS** (TypeScript), PostgreSQL (para persistência de dados do cardápio).
 * **Comunicação:** Publica eventos `menu-updated` no Kafka quando o cardápio sofre alterações.
