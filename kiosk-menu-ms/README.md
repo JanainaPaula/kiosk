@@ -10,6 +10,12 @@
 
 Microsserviço responsável pela gestão dos itens de cardápio no sistema de autoatendimento de restaurantes **Kiosk**.
 
+<p align="center">
+  <img src="../docs/kiosk_menu_ms_arch.png" alt="Diagrama de Arquitetura do microsserviço Kiosk menu">
+  <br>
+  <em>(Este é o diagrama de arquitetura do do microsserviço Kiosk menu, mostrando a comunicação entre os microsserviços e seus componentes.)</em>
+</p>
+
 #### 📌 Descrição
 
 Este serviço permite:
