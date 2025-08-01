@@ -1,7 +1,7 @@
 import Item from "./item"
 
 type Menu = {
-    itens: Item[]
+    itens: Item[];
 };
 
 export default Menu;
